@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	<name>Game</name>
+	<version>1.0</version>
+	<locales>
+		<locale>en</locale>
+		<locale>en-EN</locale>
+		<locale>en-GB</locale>
+		<locale>en-UK</locale>
+		<locale>en-US</locale>
+		<locale>en-CA</locale>
+	</locales>
+	<messages>
+		<message>
+			<code>SPAWN_PARENT_EXPLANATION</code>
+			<value>To configure a spawn</value>
+		</message>
+		<message>
+			<code>NEW_SPAWN__EXPLANATION</code>
+			<value>To create a new spawn</value>
+		</message>
+		<message>
+			<code>NEW_SPAWN__NAME_IS_MISSING</code>
+			<value>Cannot create a new spawn, the name is missing</value>
+		</message>
+		<message>
+			<code>NEW_SPAWN__NAME_ALREADY_TAKEN</code>
+			<value>A spawn %s already exists</value>
+		</message>
+		<message>
+			<code>NEW_SPAWN__SPAWN_CREATED</code>
+			<value>Spawn %s created</value>
+		</message>
+		<message>
+			<code>WORLD_SPAWN__EXPLANATION</code>
+			<value>To set the world in which the spawn is launched</value>
+		</message>
+		<message>
+			<code>WORLD_SPAWN__WORLD_NAME_IS_MISSING</code>
+			<value>Cannot set the spawn's world, the name is missing</value>
+		</message>
+		<message>
+			<code>WORLD_SPAWN__WORLD_DEFINED</code>
+			<value>The spawn %s will be launched in the %s</value>
+		</message>
+		<message>
+			<code>CENTER_SPAWN__EXPLANATION</code>
+			<value>To set spawn's center</value>
+		</message>
+		<message>
+			<code>CENTER_SPAWN__CENTER_DEFINED</code>
+			<value>The spawn's center is defined in X%s Y=%s Z=%s</value>
+		</message>
+		<message>
+			<code>DIMENSION_SPAWN__EXPLANATION</code>
+			<value>To set spawn's dimensions</value>
+		</message>
+		<message>
+			<code>DIMENSION_SPAWN__DEFINED</code>
+			<value>The dimensions of spawn %s are defined as X=%s Y=%s Z=%s</value>
+		</message>
+		<message>
+			<code>RENAME_SPAWN__EXPLANATION</code>
+			<value>To rename a spawn</value>
+		</message>
+		<message>
+			<code>RENAME_SPAWN__NAME_IS_MISSING</code>
+			<value>Cannot rename the spawn %s, the name is missing</value>
+		</message>
+		<message>
+			<code>RENAME_SPAWN__NAME_ALREADY_TAKEN</code>
+			<value>Cannot rename spawn %s as %s, a spawn with the same name already exist</value>
+		</message>
+		<message>
+			<code>RENAME_SPAWN__SPAWN_RENAMED</code>
+			<value>Spawn %s renamed as %s</value>
+		</message>
+		<message>
+			<code>SAVE_SPAWN__EXPLANATION</code>
+			<value>To save the current spawn</value>
+		</message>
+		<message>
+			<code>SAVE_SPAWN__SPAWN_SAVED</code>
+			<value>Spawn %s saved</value>
+		</message>
+		<message>
+			<code>LIST_SPAWN__EXPLANATION</code>
+			<value>To display existing spawn's names</value>
+		</message>
+		<message>
+			<code>LIST_SPAWN__NO_ELEMENT</code>
+			<value>There is any existing spawn</value>
+		</message>
+		<message>
+			<code>LIST_SPAWN__ONE_ELEMENT</code>
+			<value>One existing spawn :%n%s</value>
+		</message>
+		<message>
+			<code>LIST_SPAWN__SEVERAL_ELEMENTS</code>
+			<value>List of existing spawns :%n%s</value>
+		</message>
+		<message>
+			<code>DELETE_SPAWN__EXPLANATION</code>
+			<value>To delete a spawn's file</value>
+		</message>
+		<message>
+			<code>DELETE_SPAWN__NAME_IS_MISSING</code>
+			<value>Cannot delete a spawn, the name is missing</value>
+		</message>
+		<message>
+			<code>DELETE_SPAWN__DIT_NOT_DELETE</code>
+			<value>The deletion of spawn %s was not successful</value>
+		</message>
+		<message>
+			<code>DELETE_SPAWN__SPAWN_DELETED</code>
+			<value>The %s spawn's file has been deleted</value>
+		</message>
+		<message>
+			<code>EXTRACT_SPAWN__EXPLANATION</code>
+			<value>To extract from the world spawn's blocks</value>
+		</message>
+		<message>
+			<code>EXTRACT_SPAWN__SPAWN_EXTRACTED</code>
+			<value>The blocks of spawn %s have been extracted</value>
+		</message>
+		<message>
+			<code>REMOVE_SPAWN__EXPLANATION</code>
+			<value>To remove the spawn from the world</value>
+		</message>
+		<message>
+			<code>REMOVE_SPAWN__SPAWN_REMOVED</code>
+			<value>The spawn %s has been removed from the %s</value>
+		</message>
+		<message>
+			<code>LAUNCH_SPAWN__EXPLANATION</code>
+			<value>To launch a spawn in the world</value>
+		</message>
+		<message>
+			<code>LAUNCH_SPAWN__NO_CURRENT_SPAWN</code>
+			<value>There is no current spawn</value>
+		</message>
+		<message>
+			<code>LAUNCH_SPAWN__WORLD_IS_MISSING</code>
+			<value>Cannot launch spawn %s, the world's name is missing</value>
+		</message>
+		<message>
+			<code>LAUNCH_SPAWN__SPAWN_DOES_NOT_EXIST</code>
+			<value>Cannot launch the spawn %s, this spawn does not exist</value>
+		</message>
+		<message>
+			<code>LAUNCH_SPAWN__SPAWN_LAUNCHED</code>
+			<value>The spawn %s has been launched in the %s at X=%s Y=%s Z=%s</value>
+		</message>
+		<message>
+			<code>DETAILS_SPAWN__EXPLANATION</code>
+			<value>To display current spawn’s characteristics</value>
+		</message>
+		<message>
+			<code>DETAILS_SPAWN__ON_DETAILS</code>
+			<value>Current spawn's characteristics :%n%s</value>
+		</message>
+		<message>
+			<code>PLAYER_SPAWN__EXPLANATION</code>
+			<value>To define the block above which players will spawn in the world</value>
+		</message>
+		<message>
+			<code>PLAYER_SPAWN__PLAYER_SPAWN_DEFINED</code>
+			<value>Players will spawn at X=%s Y=%s Z=%s</value>
+		</message>
+		<message>
+			<code>RANDOM_SPAWN__EXPLANATION</code>
+			<value>To launch randomly a spawn in the world</value>
+		</message>
+		<message>
+			<code>RANDOM_SPAWN__WORLD_OR_COORDINATES_ARE_MISSING</code>
+			<value>Cannot launch randomly a spawn, world's name or center's coordinates are missing</value>
+		</message>
+		<message>
+			<code>ALLOW_MOB_TO_SPAWN_UNDER_SPAWN__EXPLANATION</code>
+			<value>To allow or not the mobs's spawn under the spawn</value>
+		</message>
+		<message>
+			<code>ALLOW_MOB_TO_SPAWN_UNDER_SPAWN__VALUE_IS_MISSING</code>
+			<value>Cannot allow or not the spawn of mobs under the spawn, the value is missing</value>
+		</message>
+		<message>
+			<code>ALLOW_MOB_TO_SPAWN_UNDER_SPAWN__DEFINED</code>
+			<value>The rule allowMobsUnderSpawn is defined as : %s</value>
+		</message>
+	</messages>
+</dictionary>

@@ -1,0 +1,11 @@
+main: fr.pederobien.minecraftspawn.SpawnPlugin
+name: minecraft-spawn
+version: 1.0-SNAPSHOT
+api-version: 1.13
+depend: [minecraft-area]
+
+description:
+commands:
+  spawn:
+    description: This command is used to load or save world spawn.
+    permission: SpawnPlugin.permission
