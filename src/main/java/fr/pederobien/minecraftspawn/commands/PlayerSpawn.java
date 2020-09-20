@@ -45,8 +45,9 @@ public class PlayerSpawn extends AbstractAreaEdition<ISpawn> {
 		case 3:
 			// Check if the third argument is an integer
 			return check(args[2], e -> isNotStrictInt(e), check(args[1], e -> isStrictInt(e), Arrays.asList("<Z>")));
+		default:
+			return emptyList();
 		}
-		return super.onTabComplete(sender, command, alias, args);
 	}
 
 	private void onPlayerSpawnDefined(CommandSender sender, int x, int y, int z) {

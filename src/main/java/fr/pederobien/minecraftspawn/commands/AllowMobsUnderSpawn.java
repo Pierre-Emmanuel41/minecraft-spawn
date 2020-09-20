@@ -39,7 +39,7 @@ public class AllowMobsUnderSpawn extends AbstractAreaEdition<ISpawn> {
 	public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
 		switch (args.length) {
 		case 1:
-			return filter(asList("true", "false").stream(), args[0]);
+			return filter(asList("true", "false").stream(), args);
 		default:
 			return emptyList();
 		}
