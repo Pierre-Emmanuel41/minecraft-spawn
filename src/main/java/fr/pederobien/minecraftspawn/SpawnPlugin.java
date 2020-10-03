@@ -40,11 +40,12 @@ public class SpawnPlugin extends JavaPlugin {
 	}
 
 	private void registerDictionaries() {
+		String[] dictionaries = new String[] { "Spawn.xml" };
 		// Registering French dictionaries
-		registerDictionary("French", "Spawn.xml");
+		registerDictionary("French", dictionaries);
 
 		// Registering English dictionaries
-		registerDictionary("English", "Spawn.xml");
+		registerDictionary("English", dictionaries);
 	}
 
 	private void registerDictionary(String parent, String... dictionaryNames) {
